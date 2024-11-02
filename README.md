@@ -35,7 +35,7 @@ rails generate controller ControllerName
 ```bash
 rails server 
 ```
-### Generates new code for models, controllers, views, and other Rails components:
+### Ruby on Rails provides a wide range of commands to assist developers throughout the development lifecycle. Below is a comprehensive list of commonly used commands:
 
 ```bash
 rails generate
@@ -96,7 +96,7 @@ rails runner 'SomeModel.some_method'
 ```bash
 bundle update rails
 ```
-### command will change the database adapter for your Rails application to PostgreSQL. It will do this by updating your database.yml file and adding the pg gem to your Gemfile. It will also remove the sqlite gem from your Gemfile if it is present.
+### Command will change the database adapter for your Rails application to PostgreSQL. It will do this by updating your database.yml file and adding the pg gem to your Gemfile. It will also remove the sqlite gem from your Gemfile if it is present.
 
 ```bash
 rails db:system:change --to=postgresql 
